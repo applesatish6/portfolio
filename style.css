@@ -1,0 +1,354 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #222930;
+}
+
+#main-header{
+    background-color: #222930;
+    padding: 30px;
+    border-bottom: 10px solid #1ae;
+}
+#head-text h3{
+    color: white;
+    font-family: Akronim;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+nav{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    
+}
+
+ul li{
+    float: left;
+    width: 100px;
+    height: 30px;
+    background-color: #1ae;
+    
+    line-height:30px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+ul li a:hover{
+    background-color: orange;
+    color: white;
+}
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+
+/*
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+    padding-top: 30px;
+}
+
+ul {
+  background: darkorange;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: white;
+  background: #1ae;
+    float: left;
+    padding: 1rem;
+    text-decoration: none;
+  transition-duration: 0.5s;
+    
+}
+  
+li a {
+  color: white;
+}
+
+li:hover {
+    background: #1ae;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: #1ae;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
+*/
+
+/*
+nav{
+  text-decoration: none;
+    
+}
+nav ul li {
+   float: left;
+	list-style: none;
+	margin: 5px 1px;
+    padding: 20px;
+    text-decoration-line: none;
+    
+}
+nav ul li a{
+   padding:10px; 
+    background-color: #1ae;
+    border-radius: 5px;
+    color: white;
+}
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+/* content goes here*/
+
+#middle-content{
+    margin-top: 30px;
+}
+#human img{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    position:relative;
+    left: 40px;
+   
+}
+#middle-content{
+    background-color: #222930;
+    border-bottom: 1px solid white;
+    border-bottom-style: dashed;
+    padding-bottom: 10px;
+}
+#middle-content p{
+    color:white;
+}
+#bookimage img{
+width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+#logoimage img{
+width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+#swimmingimage img{
+width:250px;
+    height:250px;
+    border-radius: 50%;
+}
+#showcase h2{
+   color:white;
+    font-family: italic;
+}
+
+.link{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link a{
+  color: white;
+}
+/*
+#button { display: flex;
+justify-content: center;
+padding-top: 40px;
+
+}
+*/
+button{
+    padding: 12px;
+    background-color: #1ae;
+   
+    border-radius: 5px;
+    border: none;
+}
+#footer{
+    margin-top: 30px;
+}
+#footer h4{
+    color: #1ae;
+    text-align: center;
+    
+}
+/* footer first footer goes here*/
+form input[type=text]{
+   padding: 8px ;
+    width: 70%;
+    border-radius: 5px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+form textarea{
+     width: 70%;
+    border-radius: 5px;
+}
+form input[type=submit]{
+    padding: 7px;
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+   
+}
+/* footer social media goes here*/
+#social{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.fa {
+
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    border-radius: 50%;
+    padding:20px; 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+    
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#footer1 form label{
+    color:white;
+}
+
+
+
+
+/* hobbies page goes here*/
+
+.hobbies img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.hobbies p{
+    color: white;
+}
+.hobbies h1{
+     text-align: center;
+      font-family: Akronim;
+     margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+.hobbies h3{
+    color: #1ae;
+    
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hobbies span{
+    font-size: 20px;
+    color: #1ae;
+    font-family: monospace;
+}
+
+/* resume page goes here*/
+
+.resume img{
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.resumeside h2,p {
+  color:white;
+}
+.resume1 li,h3{
+  color: white;
+}
+
+.resumeside h1{
+  font-family: Allura;
+  color: white;
+}
